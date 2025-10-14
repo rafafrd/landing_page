@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* header */
+nav {
+    background: #8bb0ff;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+.logoimagem {
+    width: 50px;
+    height: auto; /* alinha sozinho */
+    margin: 5px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+}
+
+/* showcase */
+.showcase {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+    gap: 40px;
+    flex-wrap: wrap; /*os itens quebrem para a linha de baixo em telas pequenas */
+    margin-top: 0;
+}
+
+.imgshowcase {
+    max-width: 100%; /* imagem nunca vai ultrapassar a largura do seu container */
+    width: 500px;
+    height: auto;
+    display: block; /* tira espaços em branco abaixo da imagem */
+    border-radius: 8px; /* bordas arredondadas*/
+}
+
+.textboxShowcase {
+    flex: 1; /* deixa que o container de texto cresça e se ajuste sozinho e boa */
+    min-width: 300px; /* deixa o eixo X minimo antes de quebrar a linha */
+    max-width: 600px;
+    text-align: left; /* texto igual word */
+    margin-left: 0;
+}
+
+.textboxShowcase h4 {
+    font-size: 2em;
+    margin-bottom: 15px;
+}
+
+.textboxShowcase p {
+    margin-bottom: 1em;
+}
+
+.btn {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+.btn:hover {
+    background: #555;
+}
+
+
+/* seção itens e acessorios */
+.accessory-container {
+    padding: 40px 20px;
+    background-color: #f4f4f4;
+    text-align: center; /* center no título h2 */
+}
+
+.accessory-title {
+    margin-bottom: 40px;
+    font-size: 1.8em;
+}
+
+.accessory-list {
+    list-style-type: none;
+    display: flex;
+    justify-content: center; /*deixa no meio*/
+    gap: 20px;
+    flex-wrap: wrap; /* tentativa de deixar responsivo */
+}
+
+.accessory-item {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    flex-basis: 300px;
+    flex-grow: 1;
+    max-width: 350px; /* nao deixa os card 4:3 em tela grande*/
+}
+
+.accessory-img {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.accessory-item-title {
+    margin-bottom: 10px;
+}
+
+/* rodapé */
+.navfooter {
+    background: #8bb0ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    z-index: 1000; /* sobrepoe */
+}
