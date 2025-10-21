@@ -25,22 +25,25 @@ O desenvolvimento deste projeto foi guiado pelos seguintes objetivos:
 O projeto está organizado da seguinte forma para manter o código limpo e de fácil manutenção:
 
 ```
-├── 📁 .git/ 🚫 (auto-hidden)
-├── 📁 public/
-│   ├── 📁 images/
+├── 📁 public
+│   ├── 📁 images
 │   │   ├── 🖼️ constelacao.png
 │   │   ├── 🖼️ exemplopandingpage.jpg
 │   │   ├── 🖼️ gemini-color.png
-│   │   └── 🖼️ showcaseimg.webp
-│   └── 📁 styles/
+│   │   ├── 🖼️ github.svg
+│   │   ├── 🖼️ instagram.svg
+│   │   ├── 🖼️ logoapache.png
+│   │   ├── 🖼️ logoapacheedited.png
+│   │   ├── 🖼️ showcaseimg.webp
+│   │   └── 🖼️ star.jpeg
+│   └── 📁 styles
 │       ├── 🎨 global.css
 │       ├── 🎨 reset.css
 │       ├── 🎨 style copy.css
 │       └── 🎨 style.css
-├── 📁 src/
-│   └── 📁 pages/
-│       └── 🌐 index.html
-└── 🚫 .gitignore
+├── ⚙️ .gitignore
+├── 📝 README.md
+└── 🌐 index.html
 ```
 
 ### Descrição dos Arquivos Principais:
